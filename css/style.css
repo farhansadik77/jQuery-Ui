@@ -1,0 +1,62 @@
+body {
+	background-color: #393939;
+	color: #EEF1F6;
+}
+#draggable {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	border-radius: 8px;
+	background-color: #105D5E;
+	color: #EEF1F6;
+}
+#sortable { 
+	list-style-type: none;
+	margin: 0; 
+	padding: 0; 
+	width: 450px; 
+}
+#sortable li { 
+	margin: 3px 3px 3px 0; 
+	padding: 1px;
+	border-radius: 4px;
+	float: left; 
+	width: 100px; 
+	height: 90px; 
+	font-size: 4em; 
+	text-align: center; 
+}
+#menu {
+	width: 200px;
+	border-radius: 8px;
+}
+#tabs {
+	border-radius: 8px;
+}
+#resizable {
+	width: 200px;
+	height: 200px;
+	padding: 0.5em;
+	border-radius: 8px;
+}
+#selectable .ui-selecting { 
+	background: #FECA40; 
+}
+#selectable .ui-selected { 
+	background: #F39814; 
+	color: #EEF1F6; 
+}
+#selectable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 60%;
+}
+#selectable li { 
+	margin: 3px; 
+	padding: 16px; 
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+
